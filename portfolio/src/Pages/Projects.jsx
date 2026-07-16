@@ -1,5 +1,6 @@
 import React from 'react';
-import { Github, ExternalLink } from 'lucide-react';
+import { FaGithub } from 'react-icons/fa';
+import { FiExternalLink } from 'react-icons/fi';
 import { motion } from 'framer-motion';
 
 const Projects = () => {
@@ -150,7 +151,7 @@ const Projects = () => {
                                         className="inline-flex items-center gap-2 px-4 py-2 rounded-md font-semibold bg-gradient-to-r from-pink-500 to-pink-100 text-pink-900 hover:from-pink-600 hover:to-pink-400 focus:ring-pink-500 shadow-md"
                                         aria-label={`View live demo of ${project.title}`}
                                     >
-                                        <ExternalLink size={18} />
+                                        <FiExternalLink size={18} />
                                         Live Demo
                                     </a>
                                     <a
@@ -160,7 +161,7 @@ const Projects = () => {
                                         className="inline-flex items-center gap-2 px-4 py-2 rounded-md font-semibold text-gray-700 dark:text-gray-300 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors duration-200 shadow-md border-2 border-pink-500"
                                         aria-label={`View ${project.title} on GitHub`}
                                     >
-                                        <Github size={18} />
+                                        <FaGithub size={18} />
                                         {project.liveUrl ? 'GitHub' : 'View Repository'}
                                     </a>
                                 </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Facebook, Instagram } from "lucide-react";
+import { FaGithub, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 import Button from "../Components/Button";
 import BackgroundBlobs from "../Components/BackgroundBlobs";
 import TechStack from "../Components/TechStack";
@@ -23,10 +23,10 @@ const roles = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com/EchannyE", label: "GitHub" },
-  { icon: Linkedin, href: "https://www.linkedin.com/in/echannyidagu", label: "LinkedIn" },
-  { icon: Facebook, href: "https://www.facebook.com/share/1C9vDUJ5qP/", label: "Facebook" },
-  { icon: Instagram, href: "https://www.instagram.com/echannyonda", label: "Instagram" },
+  { icon: FaGithub, href: "https://github.com/EchannyE", label: "GitHub" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/in/echannyidagu", label: "LinkedIn" },
+  { icon: FaFacebook, href: "https://www.facebook.com/share/1C9vDUJ5qP/", label: "Facebook" },
+  { icon: FaInstagram, href: "https://www.instagram.com/echannyonda", label: "Instagram" },
 ];
 
 const Home = () => {
